@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drirt Escape</title>
     <meta name="robots" content="index, follow">
-    <meta name="description" content="...">
+    <meta name="description" content="Test your drifting skills in this thrilling 3D racing game! Navigate
+                        challenging tracks, perform epic drifts, and leave your opponents in the dust. With
+                        stunning graphics and intuitive controls, you'll be hooked from the first lap. Customize your
+                        car, upgrade your performance, and race your way to the top of the leaderboards!">
     <link rel="stylesheet" href="../styles.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -30,11 +35,10 @@
                 <canvas id="gameCanvas"></canvas>
                 <button id="playButton">
                     <svg viewBox="0 0 24 24" width="48" height="48">
-                        <path fill="currentColor" d="M8 5v14l11-7z"/>
+                        <path fill="currentColor" d="M8 5v14l11-7z" />
                     </svg>
                 </button>
-                <iframe id="gameIframe"
-                    src="about:blank"
+                <iframe id="gameIframe" src="https://rallyracerdirt.github.io/game-RallyRacerDirt/drift-escape/"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -48,7 +52,8 @@
                     </div>
                     <button id="fullscreenBtn">
                         <svg viewBox="0 0 24 24" width="24" height="24">
-                            <path fill="currentColor" d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                            <path fill="currentColor"
+                                d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
                         </svg>
                         <span>Fullscreen</span>
                     </button>
@@ -60,11 +65,18 @@
             <div class="control-instructions">
                 <h3>How to Play Drirt Escape</h3>
                 <div class="game-description">
-                    <p>Drirt Escape is a fast-paced off-road racing game where you must navigate through treacherous dirt trails, avoid hazards, and escape pursuit from relentless enemies! You’ll take control of an agile off-road vehicle and race through muddy paths, narrow tunnels, and rugged landscapes while evading obstacles and enemies chasing you.</p>
-                    <p>As you speed through challenging terrains, you’ll need to outsmart and outrun your pursuers, using shortcuts, boosts, and terrain knowledge to stay one step ahead. Collect power-ups, dodge deadly traps, and use your driving skills to escape the clutches of danger.</p>
-                    <p>With multiple vehicles and levels to unlock, Drirt Escape will keep you on the edge of your seat as you race against time and your enemies. Are you ready to escape the dirt and leave your pursuers in the dust?</p>
+                    <p>Drirt Escape is a fast-paced off-road racing game where you must navigate through treacherous
+                        dirt trails, avoid hazards, and escape pursuit from relentless enemies! You’ll take control of
+                        an agile off-road vehicle and race through muddy paths, narrow tunnels, and rugged landscapes
+                        while evading obstacles and enemies chasing you.</p>
+                    <p>As you speed through challenging terrains, you’ll need to outsmart and outrun your pursuers,
+                        using shortcuts, boosts, and terrain knowledge to stay one step ahead. Collect power-ups, dodge
+                        deadly traps, and use your driving skills to escape the clutches of danger.</p>
+                    <p>With multiple vehicles and levels to unlock, Drirt Escape will keep you on the edge of your seat
+                        as you race against time and your enemies. Are you ready to escape the dirt and leave your
+                        pursuers in the dust?</p>
                 </div>
-                
+
                 <h4>Controls Guide:</h4>
                 <ul>
                     <li>↑ - Accelerate</li>
@@ -74,7 +86,7 @@
                     <li>Space - Use Boost</li>
                     <li>Shift - Activate Power-ups</li>
                 </ul>
-                
+
                 <div class="game-tips">
                     <h4>Escape Tips:</h4>
                     <ul>
@@ -83,7 +95,7 @@
                         <li>Collect power-ups strategically to enhance your escape chances.</li>
                         <li>Keep an eye on your fuel and vehicle health to avoid being caught!</li>
                     </ul>
-                </div>                              
+                </div>
             </div>
 
             <div class="similar-games">
@@ -147,11 +159,16 @@
             <div class="description-grid">
                 <div class="description-item">
                     <h3>About Rally Racer Dirt</h3>
-                    <p>Rally Racer Dirt is your ultimate destination for online racing games. Experience the thrill of off-road racing with our carefully curated collection of high-quality racing games. From realistic rally simulators to arcade-style racing adventures, we offer something for every racing enthusiast.</p>
+                    <p>Rally Racer Dirt is your ultimate destination for online racing games. Experience the thrill of
+                        off-road racing with our carefully curated collection of high-quality racing games. From
+                        realistic rally simulators to arcade-style racing adventures, we offer something for every
+                        racing enthusiast.</p>
                 </div>
                 <div class="description-item">
                     <h3>Our Collection</h3>
-                    <p>Discover a vast library of racing games featuring different styles and gameplay mechanics. Whether you're into rally racing, drift competitions, or track racing, our platform provides seamless access to the best racing games available online.</p>
+                    <p>Discover a vast library of racing games featuring different styles and gameplay mechanics.
+                        Whether you're into rally racing, drift competitions, or track racing, our platform provides
+                        seamless access to the best racing games available online.</p>
                 </div>
                 <div class="description-item">
                     <h3>Why Choose Us</h3>
@@ -181,9 +198,10 @@
                 playButton.style.display = 'none';
                 gameCanvas.style.display = 'none';
                 gameIframe.style.display = 'block';
-                gameIframe.src = 'https://trafficjam3d.github.io/drift-escape/';
+                gameIframe.src = 'https://rallyracerdirt.github.io/game-RallyRacerDirt/drift-escape/';
             });
         });
     </script>
 </body>
-</html> 
+
+</html>
